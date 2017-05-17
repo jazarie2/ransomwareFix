@@ -28,7 +28,7 @@ $fixid = "3205401"
 case "WIN_10"&"X86": ;10 x86 ;https://support.microsoft.com/en-us/kb/3210720
    if @OSBuild = 1511 Then
 	  $fixid = "3210721"
-   ElseIf @OSBuild = 1607
+   ElseIf @OSBuild = 1607 Then
 	  $fixid = "3213986"
    Else
 	  $fixid = "3210720"
@@ -38,7 +38,7 @@ case "WIN_10"&"X86": ;10 x86 ;https://support.microsoft.com/en-us/kb/3210720
 case "WIN_10"&"X64": ;10 x64 ;https://support.microsoft.com/en-us/kb/3210720
    if @OSBuild = 1511 Then
 	  $fixid = "3210721"
-   ElseIf @OSBuild = 1607
+   ElseIf @OSBuild = 1607 then
 	  $fixid = "3213986"
    Else
 	  $fixid = "3210720"
